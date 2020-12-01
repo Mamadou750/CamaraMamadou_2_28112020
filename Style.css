@@ -50,15 +50,14 @@ div.filtrage {
 }
 
 .hebergement-1 {
-	
-	width:750px;
-	height: 480px;
+	border-radius: 10px;
+	width:830px;
+	height: 730px;
 	border:1px solid black;
 	display:flex;
-	flex-wrap: wrap;	
-	justify-content: flex-start;
-	align-items :flex-start;
-	align-content: flex-start;
+	flex-wrap: wrap;
+	justify-content: space-around;	
+	align-items: center;
 	background-color: #D3D3D3;
 }
 
@@ -78,9 +77,9 @@ img.HebM {
      object-position: 50% 50%; 
 }
 figure {
-	border:3px solid black;
-	width:155px;
-	height: 150px;
+	border:1px solid black;
+	width:175px;
+	height: 100px;
 	background-color: white;
 
 }
@@ -92,20 +91,76 @@ figcaption {
 }
 
 .pop {
-	width:440px;
-	height: 480px;
+	border-radius: 10px;
+	width:460px;
+	height: 730px;
 	border:1px solid black;
 	display:flex;
 	flex-wrap: wrap;
-	justify-content: flex-start;
-	align-items :flex-start;
-	align-content: flex-start;
+	justify-content: space-around;	
+	align-items: center;
+	
 	background-color: #D3D3D3;
 }
-figcaption.droite {
-	 position: relative;
-	 text-align:center;
-	 transform: rotate(0deg);
-  	 left: 280px;
-   	 top: -102px;
+
+.cont-img {
+	border-radius: 10px;
+	width:235px;
+	height: 180px;
+	display:flex;
+	background-color: white;
+	border:1px solid black;
+	display:flex;
+	justify-content: center;
+
+}
+
+.cont-imgp {
+	border-radius: 10px;
+	width:425px;
+	height: 180px;
+	display:flex;
+	background-color: white;
+	border:1px solid black;
+	display:flex;
+	flex-wrap: wrap;
+	
+
+}
+p.droite{
+	border:1px solid black;
+	position: absolute;
+ 	
+ 	top: 370px;
+ 	right: 70px
+	
+}
+p.droites{
+	border:1px solid black;
+	position: absolute;
+ 	
+ 	top: 570px;
+ 	right: 105px
+	
+}
+p.droitess{
+	border:1px solid black;
+	position: absolute;
+ 	
+ 	top: 790px;
+ 	right: 75px
+	
+}
+.titre{
+	width:830px;
+	border:1px solid black;
+	display: flex;
+	justify-content: flex-start;
+	
+}
+.titre1{
+	width:830px;
+	border:1px solid black;
+	display: flex;
+	justify-content: flex-start;
 }
