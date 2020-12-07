@@ -106,7 +106,7 @@ div.filtrage {
 	background-color: #F2F2F2;
 }
 
-.milieu-page {
+.conteneur {
 	width: 1339px; 
 	border:0px solid black;
 	display:flex;
@@ -216,9 +216,7 @@ p.droitess{
 	height: 410px;
 	display:flex;
 	justify-content: flex-start;
-	
-
-	border:1px solid black;
+	border:0px solid black;
 }
 
 .A {
@@ -261,32 +259,33 @@ p.droitess{
     color: black;
     padding: 3px;
     text-align: center;
+    font-weight: bold;
+}
+
+.gras{
+	font-weight: bold;
 }
 
 footer {
-	bottom:0;
-
-	width:100%;
-
-	padding: 10px 20px;
 	background-color: #F2F2F2;
+	border:0px solid black;
+	width: 1339px;
 	border:0px solid black;
 	
 }
 
-.contenu-footer {
-	width: 1200px;
-	margin: 0 auto;
+.footerContenu {
 	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	padding: 50px 0 100px;
+	justify-content: space-between;
+	border:0px solid black;
 }
 
 .bloc{
-	width: 25%;
-	margin: 0 30px;
+	border:1px solid black;
+	width: 400px;
 }
+
+
 
 .liste-A-propos,
 .liste-nos-heb,
