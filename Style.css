@@ -1,3 +1,47 @@
+@media all and (max-width: 1024px)
+{
+    #bloc_page
+    {
+        width: auto;    
+        border:1px solid black;
+    }   
+
+    nav
+    {
+        width: auto;
+        
+       
+    }
+
+
+    section
+    {
+        flex-direction: column;
+        
+    }
+
+    article, aside
+    {
+        width: auto;
+        margin-bottom: 15px;
+    }
+   	
+   	footer
+    {
+        width: auto;
+        flex-direction: column;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
 body{
 	font-family: raleway;
 	display: flex;
@@ -52,7 +96,7 @@ input{
 .fa-map-marker-alt {
 	position: absolute;
  	left: 3px;
- 	top: 105px;
+ 	top: 85px;
  	width: 30px;
 	border-radius: 8px;
 	height: 25px
@@ -70,13 +114,13 @@ button.R{
 }
 
 button.F {
+	position: relative;
 	background-color: white;
 	color: black;
 	border-radius: 50px;
-	height: 30px;
-	width: 300px
-	display: flex;
-	justify-content: flex-start;
+	height: 28px;
+	width: 200px
+	
 
 	
 }
@@ -85,16 +129,19 @@ button.F:hover {
 }
 
 div.filtrage {
+	position: relative;
+	width: 900px;
 	display:flex;
-	flex-direction : row;
+	justify-content: space-between;
 	align-items :center;
+	border:0px solid black;
 }
 
 .RECH {
 	height: 36px;
 }
 
-.hebergement-1 {
+article {
 	border-radius: 10px;
 	width:830px;
 	height: 730px;
@@ -106,7 +153,7 @@ div.filtrage {
 	background-color: #F2F2F2;
 }
 
-.conteneur {
+section {
 	width: 1339px; 
 	border:0px solid black;
 	display:flex;
@@ -123,7 +170,7 @@ img.HebM {
 }
 figure {
 	border-radius: 10px;
-	border:0px solid black;
+	border:1px solid black;
 	width:185px;
 	height: 150px;
 	background-color: white;
@@ -131,12 +178,12 @@ figure {
 }
 
 figcaption {
-	border:0px solid black;
+	border:1px solid black;
 	background-color: white;
 
 }
 
-.pop {
+aside {
 	border-radius: 10px;
 	width:460px;
 	height: 730px;
@@ -217,6 +264,7 @@ p.droitess{
 	display:flex;
 	justify-content: flex-start;
 	border:0px solid black;
+	background-color: white;
 }
 
 .A {
@@ -235,7 +283,7 @@ p.droitess{
 	position: absolute;
  	
  	top: 228px;
- 	right: 45px
+ 	right: 45px;
 }
 
 .AA {
@@ -244,7 +292,7 @@ p.droitess{
 	border-radius: 10px;
 	border:0px solid black;
 	width:230px;
-	height: 330px
+	height: 330px;
 	
 
 }
@@ -293,17 +341,58 @@ footer {
 	list-style-type: none;
 }
 
-.fa-male,
-.fa-money-bill-wave,
-.fa-heart,
+.fa-male{
+	border-radius: 50px;
+	border:1px solid black;
+	text-align: center;
+	align-content: center;
+	width: 40px;
+	height: 20px;
+	color: black;
+	position: absolute;
+ 	
+ 	top: 19px;
+ 	right: 559px;
+}
+.fa-money-bill-wave{
+
+	border-radius: 50px;
+	border:1px solid black;
+	text-align: center;
+	align-content: center;
+	width: 40px;
+	height: 20px;
+	position: absolute;
+ 	
+ 	top: 19px;
+ 	right: 772px;
+}
+.fa-heart{
+	border-radius: 50px;
+	border:1px solid black;
+	text-align: center;
+	align-content: center;
+	width: 40px;
+	height: 20px;
+	position: absolute;
+ 	
+ 	top: 19px;
+ 	right: 348px;
+
+}
 .fa-dog
 {
-	border:0px solid black;
-	width: 35px;
-	border-radius: 80px;
-	height: 30px
-	background-color:#DEEBFF;
-	color: #0065FC
+	border-radius: 50px;
+	border:1px solid black;
+	text-align: center;
+	align-content: center;
+	width: 40px;
+	height: 20px;
+	position: absolute;
+ 	
+ 	top: 19px;
+ 	right: 145px;
+	
 }
 
 .fa-info-circle{
