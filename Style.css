@@ -81,7 +81,7 @@ nav
 input[type="text"]::placeholder {  
                   
                 /* Firefox, Chrome, Opera */ 
-                padding-left: 10px; 
+                padding-left: 5px; 
 } 
 
 .recherche {
@@ -114,7 +114,7 @@ button.R{
 }
 
 button.F {
-	position: relative;
+	
 	background-color: white;
 	color: black;
 	border-radius: 50px;
@@ -173,7 +173,7 @@ figure {
 	border:1px solid black;
 	width:185px;
 	height: 150px;
-	background-color: white;
+	
 
 }
 
@@ -215,6 +215,7 @@ aside {
 	border:0px solid black;
 	display:flex;
 	flex-wrap: wrap;
+	justify-content: flex-start;
 	
 
 }
@@ -343,61 +344,68 @@ footer {
 
 .fa-male{
 	border-radius: 50px;
-	border:1px solid black;
+	border:0px solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
 	height: 20px;
-	color: black;
+	color: #0065FC;
+	background-color: #F2F2F2;
 	position: absolute;
  	
  	top: 19px;
- 	right: 559px;
+ 	right: 579px;
 }
 .fa-money-bill-wave{
 
 	border-radius: 50px;
-	border:1px solid black;
+	border:0px solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
 	height: 20px;
+	color: #0065FC;
+	background-color: #F2F2F2;
 	position: absolute;
  	
  	top: 19px;
- 	right: 772px;
+ 	right: 791px;
 }
 .fa-heart{
 	border-radius: 50px;
-	border:1px solid black;
+	border:0px solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
 	height: 20px;
+	color: #0065FC;
+	background-color: #F2F2F2;
 	position: absolute;
  	
  	top: 19px;
- 	right: 348px;
+ 	right: 367px;
 
 }
 .fa-dog
 {
 	border-radius: 50px;
-	border:1px solid black;
+	border:0px solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
 	height: 20px;
+	color: #0065FC;
+	background-color: #F2F2F2;
 	position: absolute;
  	
  	top: 19px;
- 	right: 145px;
+ 	right: 155px;
 	
 }
 
 .fa-info-circle{
 	background-color: white;
-	color: #0065FC
+	color: #0065FC;
 }
 
 .fa-star{
