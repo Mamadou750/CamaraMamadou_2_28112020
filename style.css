@@ -28,6 +28,13 @@ footer {
 }
 
 
+ul {
+   	list-style: none; /* enlever les puces */
+   	margin: 0; /* enlever les marges automatiques */
+    border:0px solid black;
+   	padding-left: 0px;
+}
+
 .liste-A-propos,
 .liste-nos-heb,
 .liste-Assistance {
@@ -38,6 +45,7 @@ footer {
 
 p { 
 	background-color: white
+	border-radius: 10px;
 }
 
 
@@ -59,7 +67,7 @@ main > #heb {
 	order:2 ;
 	width: 100%;
 	height: 1500px;
-	border:3px solid black;
+	border:0px solid black;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;	
@@ -74,13 +82,11 @@ main > .pop {
 	position: relative;
 	order:1 ;
 	width: 100%;
-	
-	
 	display:flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: flex-start;	
 	align-items: flex-start;	
-	border:3px solid black;
+	border:0px solid black;
 	border-radius: 5px;
 	background-color: #F2F2F2;
 }
@@ -98,6 +104,12 @@ main > #ac {
 	border:0px solid black;
 }
 
+.fa-chart-line {
+	border:0px solid black;
+	width: 235px;
+	height: 16px;
+	text-align: right;
+}
 
 .fa-info-circle {
 	background-color: white;
@@ -111,11 +123,10 @@ main > #ac {
 
 
 header {
-		width: 100%;
-		display:flex;
-		align-items :center;
-
-		border:0px solid black;
+	width: 100%;
+	display:flex;
+	align-items :center;
+	border:0px solid black;
 }
 
 
@@ -134,24 +145,82 @@ nav  {
 
 
 .filtrage {
-	position: relative;
+	
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
 	align-items :center;
-	border:1px solid black;
+	border:0px solid black;
 		
 }
 
 
-button.F {
+
+.fa-money-bill-wave {
+	margin-left: -5px;
+	border-radius: 50px;
+	border:0px solid black;
+	text-align: center;
+	align-content: center;
+	width: 40px;
+	height: 100%;
+	color: #0065FC;
+	background-color: #87CEFA;
+
 		
+}
+
+
+.fa-male {
+	margin-left: -5px;
+	border-radius: 50px;
+	border:0px solid black;
+	text-align: center;
+	align-content: center;
+	width: 40px;
+	height: 16px;
+	color: #0065FC;
+	background-color: #87CEFA;
+}
+
+
+.fa-heart {
+	margin-left: -5px;
+	border-radius: 50px;
+	border:0px solid black;
+	text-align: center;
+	align-content: center;
+	width: 40px;
+	height: 16px;
+	color: #0065FC;
+	background-color: #87CEFA;
+}
+
+
+.fa-dog {
+	margin-left: -5px;
+	margin-top: -5px;
+	border-radius: 50px;
+	border: 0px solid black;
+	text-align: center;
+	align-content: center;
+	width: 40px;
+	height: 16px;
+	color: #0065FC;
+	background-color: #87CEFA;	
+}
+
+
+button.F {
+	
 	background-color: white;
 	color: black;
+	text-align: left;
+	font-weight: bold;
 	border-radius: 50px;
-	height: 28px;
-	width: 200px		
+	height: 22px;
+	width: 200px;		
 }
 
 
@@ -173,10 +242,12 @@ input {
 
 button.R {
 	
-	background-color: blue;
+	background-color: #0065FC;
 	color: white;
+	box-shadow:none;
 	border-radius: 5px;
 	height: 28px;
+
 }
 
 
@@ -195,71 +266,7 @@ button.R {
 }
 
 
-.fa-male {
-	border-radius: 50px;
-	border:0px solid black;
-	text-align: center;
-	align-content: center;
-	width: 40px;
-	height: 20px;
-	color: #0065FC;
-	background-color: #F2F2F2;
-	position: absolute;
-	 	
-	 top: 63px;
-	 right: 167px;
-}
 
-
-.fa-money-bill-wave {
-
-	border-radius: 50px;
-	border:0px solid black;
-	text-align: center;
-	align-content: center;
-	width: 40px;
-	height: 20px;
-	color: #0065FC;
-	background-color: #F2F2F2;
-	position: absolute;
-	 	
-	 top: 22px;
-	 right: 365px;
-}
-
-
-.fa-heart {
-	border-radius: 50px;
-	border:0px solid black;
-	text-align: center;
-	align-content: center;
-	width: 40px;
-	height: 20px;
-	color: #0065FC;
-	background-color: #F2F2F2;
-	position: absolute;
-	 	
-	 top: 63px;
-	 right: 412px;
-
-}
-
-
-.fa-dog {
-	border-radius: 50px;
-	border:0px solid black;
-	text-align: center;
-	align-content: center;
-	width: 40px;
-	height: 20px;
-	color: #0065FC;
-	background-color: #F2F2F2;
-	position: absolute;
-	 	
-	 top: 20px;
-	 right: 160px;
-		
-}
 
 
 article,
@@ -273,7 +280,7 @@ section {
 .populaire {
 	width: 200px;
 	height: 150px;
-	border:3px solid white;
+	border:0px solid white;
 	border-radius: 5px;
 	
 }
@@ -288,7 +295,7 @@ section {
 }
 
 
-.A {
+.photo-A-fixe {
 	border-radius: 10px;
 	border:0px solid black;
 	width:400px;
@@ -297,7 +304,7 @@ section {
 }
 
 
-.AA {
+.photo-A-enLongeur {
 	border: thin #c0c0c0 solid;
     
 	border-radius: 10px;
@@ -332,44 +339,47 @@ section {
 }
 
 
-p.droite {
+p.legende-hotelSoleil {
 	background-color: white;
+	border-radius: 10px;
 	border:0px solid black;
 	height: 155px;
 	width: 200px;
 	text-align: center;
 	position: absolute;
 	 	
-	 top: 65px;
-	 right: 35px
+	 top: 63px;
+	 right: 45px;
 		
 }
 
 
-p.droites {
+p.legende-HotelCoeur {
 	background-color: white;
+	border-radius: 10px;
 	border:0px solid black;
 	height: 155px;
 	width: 200px;
 	text-align: center;
 	position: absolute;
 	 	
-	 top: 252px;
-	 right: 34px;
+	 top: 245px;
+	 right: 45px;
 		
 }
 
 
-p.droitess {
+p.legende-HotelBleuBlanc {
 	background-color: white;
+	border-radius: 10px;
 	border:0px solid black;
 	height: 155px;
 	width: 200px;
 	text-align: center;
 	position: absolute;
 	 	
-	 top: 438px;
-	 right: 34px
+	 top: 428px;
+	 right: 45px;
 		
 }
 
@@ -386,6 +396,8 @@ p.droitess {
 .gras {
 	font-weight: bold;
 }
+
+
 
 
 
@@ -420,8 +432,8 @@ p.droitess {
 	.hebergements {
 		border-radius: 10px;
 		border:3px solid white;
-		width:185px;
-		height: 190px;
+		width:190px;
+		height: 130px;
 	
 	}
 
@@ -430,7 +442,7 @@ p.droitess {
 		border-radius: 10px;
 		border:3px solid white;
 		width:185px;
-		height: 150px;
+		height: 132px;
 	}
 
 
@@ -466,16 +478,18 @@ p.droitess {
 	}
 
 
+
+
 	main > #heb {
 		order:1 ;
 		border-radius: 10px;
 		width:830px;
-		height: 730px;
-		border:0px solid black;
-		display:flex;
+		height: 580px;
+		border:0px solid black;	
 		flex-wrap: wrap;
-		justify-content: space-around;	
+		justify-content: flex-start;	
 		align-items: flex-start;
+		align-content: space-between;
 		background-color: #F2F2F2;
 		
 		
@@ -487,11 +501,12 @@ p.droitess {
 		order:2 ;
 		border-radius: 10px;
 		width:460px;
-		height: 730px;
+		height: 580px;
 		border:0px solid black;
 		display:flex;
 		flex-wrap: wrap;
-		justify-content: flex-start;	
+		justify-content: flex-start;
+		align-content: space-between;
 		align-items: flex-start;	
 		background-color: #F2F2F2;
 			
@@ -528,49 +543,51 @@ p.droitess {
 	}
 
 
-	p.droite {
+	p.legende-hotelSoleil {
 		background-color: white;
+		border-radius: 10px;
 		border:0px solid black;
-		height: 155px;
+		height: 132px;
 		width: 200px;
 		text-align: center;
 		position: absolute;
 	 	
-	 	top: 65px;
+	 	top: 70px;
 	 	right: 30px
 		
 	}
 
 
-	p.droites {
+	p.legende-HotelCoeur {
 		background-color: white;
+		border-radius: 10px;
 		border:0px solid black;
-		height: 155px;
+		height: 132px;
 		width: 200px;
 		text-align: center;
 		position: absolute;
 	 	
-	 	top: 250px;
+	 	top: 240px;
 	 	right: 30px
 		
 	}
 
 
-	p.droitess {
+	p.legende-HotelBleuBlanc {
 		background-color: white;
+		border-radius: 10px;
 		border:0px solid black;
-		height: 155px;
+		height: 132px;
 		width: 200px;
 		text-align: center;
 		position: absolute;
-	 	
-	 	top: 435px;
+	 	top: 411px;
 	 	right: 30px
 		
 	}
 
 
-	.A {
+	.photo-A-fixe {
 		border-radius: 10px;
 		border:0px solid black;
 		width:250px;
@@ -584,8 +601,7 @@ p.droitess {
 		border:0px solid black;
 		width:250px;
 		height: 100px;
-		position: absolute;
-	 	
+		position: absolute;	 	
 	 	top: 335px;
 	 	right: 20px;
 	}
@@ -597,15 +613,13 @@ p.droitess {
 		width:250px;
 		height: 100px;
 		position: absolute;
-	 	
 	 	top: 335px;
 	 	right: 678px;
 	}
 
 
-	.AA {
+	.photo-A-enLongeur {
 		border: thin #c0c0c0 solid;
-	    
 		border-radius: 10px;
 		border:0px solid black;
 		width:250px;
@@ -629,72 +643,7 @@ p.droitess {
 	}
 
 
-	.fa-male {
-		border-radius: 50px;
-		border:0px solid black;
-		text-align: center;
-		align-content: center;
-		width: 40px;
-		height: 20px;
-		color: #0065FC;
-		background-color: #F2F2F2;
-		position: absolute;
-	 	
-	 	top: 19px;
-	 	right: 579px;
-	}
-
-
-	.fa-money-bill-wave {
-
-		border-radius: 50px;
-		border:0px solid black;
-		text-align: center;
-		align-content: center;
-		width: 40px;
-		height: 20px;
-		color: #0065FC;
-		background-color: #F2F2F2;
-		position: absolute;
-	 	
-	 	top: 19px;
-	 	right: 791px;
-	}
-
-
-	.fa-heart {
-		border-radius: 50px;
-		border:0px solid black;
-		text-align: center;
-		align-content: center;
-		width: 40px;
-		height: 20px;
-		color: #0065FC;
-		background-color: #F2F2F2;
-		position: absolute;
-	 	
-	 	top: 19px;
-	 	right: 367px;
-
-	}
-
-
-	.fa-dog {
-		border-radius: 50px;
-		border:0px solid black;
-		text-align: center;
-		align-content: center;
-		width: 40px;
-		height: 20px;
-		color: #0065FC;
-		background-color: #F2F2F2;
-		position: absolute;
-	 	
-	 	top: 19px;
-	 	right: 155px;
-		
-	}
-
+	
 
 	footer {
 		
@@ -713,7 +662,19 @@ p.droitess {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
+		padding-left: 0px;
+
 	}
+
+
+	ul {
+   		 list-style: none; /* enlever les puces */
+   		 margin: 0; /* enlever les marges automatiques */
+   		 border:0px solid black;
+   		 padding-left: 0px;
+	}
+ 
+
 
 
 	a {
