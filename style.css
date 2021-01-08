@@ -6,7 +6,7 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border: 0px solid black;
+	border: px solid black;
 }
 
 footer {
@@ -16,8 +16,9 @@ footer {
 }
 
 h3 {
+	margin: 0;
 	font-weight: bold;
-	border: 0px solid black;
+	border: px solid black;
 }
 
 
@@ -25,25 +26,25 @@ header.navigation {
 	position: relative;
 	width: 100%;
 	height: 100px;
-	display:flex;
+	display: flex;
 	flex-direction: row;
-	align-items :flex-start;
-	border:0px solid black;
+	align-items: flex-start;
+	border: px solid black;
 }
 
 .logo {
 	width: 150px;
 	height: 50px;
-	border:0px solid black;
+	border: px solid black;
 }
 
 nav {
-	width:100%;
+	width: 100%;
 	display: flex;
-	flex-direction:row;
+	flex-direction: row;
 	justify-content: flex-end;
 	align-content: center;
-	border:0px solid black;
+	border: px solid black;
 }
 
 a.couleur-ac:hover {
@@ -63,7 +64,7 @@ a.couleur-inscrit:hover {
 
 a.couleur-heb {
 	position: absolute;
-	top:55px;
+	top: 55px;
 	left: 0px;
 	width: 230px;
 	font-size: 20px;
@@ -72,7 +73,7 @@ a.couleur-heb {
 	align-items: center;
 	color: #0065FC;
 	height: 40px;
-	border:0px solid black;
+	border: px solid black;
 }
 
 a.couleur-inscrit{
@@ -96,14 +97,14 @@ a.couleur-ac {
 	text-align: center;
 	color: black;
 	height: 40px;
-	border:0px solid black;
+	border: px solid black;
 }
 
 .recherche {
 	width: 100%;
 	position: relative;
 	flex-direction: column;
-	border:0px solid black;
+	border: px solid black;
 }
 
 input {
@@ -116,7 +117,7 @@ input {
 }
 
 .fa-map-marker-alt {
-	border:0px solid black;
+	border: px solid black;
 	text-align: center;
 	position: absolute;
 	left: 3px;
@@ -132,7 +133,7 @@ button.R {
 	margin-left: -91px;
 	background-color: #0065FC;
 	color: white;
-	box-shadow:none;
+	box-shadow: none;
 	border-radius: 5px;
 	height: 28px;
 
@@ -144,7 +145,7 @@ button.R {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items :center;
-	border:0px solid black;
+	border: 0px solid black;
 
 }
 
@@ -167,7 +168,7 @@ button.F {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border:0px solid black;
+	border: px solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
@@ -181,7 +182,7 @@ button.F {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border:0px solid black;
+	border: px solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
@@ -194,7 +195,7 @@ button.F {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border:0px solid black;
+	border: px solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
@@ -207,7 +208,7 @@ button.F {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border: 0px solid black;
+	border: px solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
@@ -221,13 +222,13 @@ section {
 	width: auto;
 	height: auto;
 	flex-wrap: wrap;
-	border: 0px solid black;
+	border: px solid black;
 }
 
 main > .Heb {
 	order: 2;
 	width: 473px;
-	border:0px solid black;
+	border: px solid black;
 	border-radius: 50px;
 	display: flex;
 	flex-wrap: wrap;
@@ -240,13 +241,13 @@ main > .Heb {
 main > .pop {
 	position: relative;
 	border-radius: 50px;
-	order:1 ;
+	order: 1;
 	width: 473px;
 	display:flex;
 	flex-direction: row;
-	justify-content: flex-start;	
+	justify-content: space-around;	
 	align-items: flex-start;	
-	border:0px solid black;
+	border: px solid black;
 	border-radius: 5px;
 	background-color: #F2F2F2;
 }
@@ -260,18 +261,39 @@ main > .activite {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	border: 0px solid black;
+	border: px solid black;
 }
 
 .populaire {
+	display: flex;
+	align-items: flex-start;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border:1px solid black;	
+	border: 2px solid white;	
 	border-radius: 10px;
 
 }
 
+.legende-hotelSoleil {
+	width: 170px;
+
+}
+
+.legende-HotelCoeur {
+	width: 170px;
+
+}
+
+.legende-HotelBleuBlanc {
+	width: 170px;
+
+}
+
+figure{
+	margin-left: 1px;
+}
+
 .fa-chart-line {
-	border:0px solid black;
+	border: px solid black;
 	width: 175px;
 	height: 16px;
 	text-align: right;
@@ -285,16 +307,24 @@ img.img-pop {
 
 header {
 	width: 100%;
-	display:flex;
-	align-items :center;
-	border: 0px solid black;
+	display: flex;
+	align-items: center;
+	border: px solid black;
 }
 
 .hebergements {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	align-content: flex-start;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	border:1px solid black;	
+	border: 2px solid white;
 	border-radius: 10px;
 		
+}
+
+.heberg {
+	height: 75px;
 }
 
 img.img-heb {
@@ -308,19 +338,19 @@ img.img-heb {
 }
 
 img.img-ac {
-	width: 400px; 
+	width: 430px; 
 	height: 150px; 
 	border-radius: 10px;
 }
 
 img.img-acL {
-	width: 400px; 
+	width: 430px; 
 	height: 150px; 
 	border-radius: 10px;
 }
 
 img.img-acF {
-	width: 400px; 
+	width: 430px; 
 	height: 150px; 
 	border-radius: 10px;
 }
@@ -356,11 +386,20 @@ img.img-acF {
 }
 
 ul {
+
 	list-style: none; /* enlever les puces */
 	margin: 0; /* enlever les marges automatiques */
-	border:0px solid black;
+	border: px solid black;
 	color: black;
 	padding-left: 0px;
+}
+
+li {
+   height: 30px;
+}
+
+.foot {
+	height: 30px;
 }
 
 a {
@@ -377,21 +416,23 @@ a {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		border: 0px solid black;
+		border: px solid black;
 	}
 
 	a.couleur-heb {
 		position: static;
-		border: 0px solid black;
+		font-size: 15px;
+		border: px solid black;
 		
 	}
 
 	a.couleur-inscrit{
-	
+		font-size: 15px;
 	}
 
 	a.couleur-ac {
 		position: static;
+		font-size: 15px;
 		
 	}
 
@@ -402,11 +443,11 @@ a {
 		display:flex;
 		flex-direction: row;
 		align-items :flex-start;
-		border:0px solid black;
+		border: px solid black;
 	}
 
 	.fa-map-marker-alt {
-		border:0px solid black;
+		border: px solid black;
 		text-align: center;
 		position: absolute;
 		left: 3px;
@@ -424,14 +465,14 @@ a {
 		flex-wrap: wrap;
 		justify-content: flex-start;
 		align-items :center;
-		border:0px solid black;
+		border: px solid black;
 
 	}
 
 	main > .Heb {
 		order: initial;
 		width: 900px;
-		border:0px solid black;
+		border: px solid black;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;	
@@ -447,9 +488,9 @@ a {
 		width: 400px;
 		display:flex;
 		flex-direction: row;
-		justify-content: flex-start;	
+		justify-content: space-around;	
 		align-items: flex-start;	
-		border:0px solid black;
+		border: px solid black;
 		border-radius: 5px;
 		background-color: #F2F2F2;
 	}
@@ -460,7 +501,7 @@ a {
 		width: 1340px;
 		flex-direction: row;
 		justify-content: flex-start;
-		border:0px solid black;
+		border: px solid black;
 	}
 
 	img.img-heb {
@@ -470,11 +511,10 @@ a {
 	}
 
 	img.img-pop {
-		width: 230px; 
-		height: 80px; 
+		width: 150px; 
+		height: 125px; 
 		border-radius: 10px;
 	}
-
 
 	footer {
 		width: 100%;
@@ -486,7 +526,7 @@ a {
 	}
 
 	.bloc {
-		border:0px solid black;
+		border: px solid black;
 		width: 400px;
 		display: flex;
 		flex-direction: column;
@@ -497,7 +537,7 @@ a {
 
 	.photo-A-fixe {
 		border-radius: 10px;
-		border:0px solid black;
+		border: px solid black;
 		
 		
 	}
@@ -505,43 +545,64 @@ a {
 
 	.parc {
 		border-radius: 10px;
-		border:0px solid black;
+		border: px solid black;
 		position: absolute;	 	
 		top: 335px;
-		right: 20px;
+		right: 15px;
 	}
 
 
 	.ile {
 		border-radius: 10px;
-		border:0px solid black;
+		border: px solid black;
 		position: absolute;
 		top: 335px;
-		right: 678px;
+		right: 680px;
 	}
 
 
 	.photo-A-enLongeur {
 		border: thin #c0c0c0 solid;
 		border-radius: 10px;
-		border:0px solid black;
+		border: px solid black;
 	}
 
 	img.img-acL{
-		width: 260px; 
+		width: 270px; 
 		height: 420px; 
 		border-radius: 10px;
 	}
 
 	img.img-acF {
-		width: 250px; 
+		width: 310px; 
 		height: 150px; 
 		border-radius: 10px;
 	}
 
 	img.img-ac {
-		width: 250px; 
+		width: 310px; 
 		height: 150px; 
 		border-radius: 10px;
 	}		
+
+	.legende-hotelSoleil {
+		width: 190px;
+
+	}
+
+	.legende-HotelCoeur {
+		width: 190px;
+
+	}
+
+	.legende-HotelBleuBlanc {
+		width: 190px;
+
+	}
+
+	figure {
+		margin-left: 1px;
+		border: px solid black;
+	}
+
 }
