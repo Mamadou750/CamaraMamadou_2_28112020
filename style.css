@@ -76,7 +76,7 @@ a.couleur-heb {
 	border: px solid black;
 }
 
-a.couleur-inscrit{
+a.couleur-inscrit {
 	font-size: 20px;
 	display: flex;
 	align-items: center;
@@ -288,7 +288,7 @@ main > .activite {
 
 }
 
-figure{
+figure {
 	margin-left: 1px;
 }
 
@@ -408,7 +408,7 @@ a {
 }
 
 
-@media screen and (min-width: 576px)  { 
+@media screen and (min-width: 576px) { 
 	
 
 	main {
@@ -426,7 +426,7 @@ a {
 		
 	}
 
-	a.couleur-inscrit{
+	a.couleur-inscrit {
 		font-size: 15px;
 	}
 
@@ -567,7 +567,7 @@ a {
 		border: px solid black;
 	}
 
-	img.img-acL{
+	img.img-acL {
 		width: 270px; 
 		height: 420px; 
 		border-radius: 10px;
