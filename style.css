@@ -6,19 +6,20 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border: px solid black;
+	border: 0 solid black;
 }
 
 footer {
 	width: 100%;
 	flex-direction: column;
-	background-color: #F2F2F2;
+	margin-top: 15px;
+	background-color: #f2f2f2;
 }
 
 h3 {
 	margin: 0;
 	font-weight: bold;
-	border: px solid black;
+	border: 0 solid black;
 }
 
 
@@ -29,13 +30,13 @@ header.navigation {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	border: px solid black;
+	border: 0 solid black;
 }
 
 .logo {
-	width: 150px;
+	width: 80px;
 	height: 50px;
-	border: px solid black;
+	border: 0 solid black;
 }
 
 nav {
@@ -44,7 +45,46 @@ nav {
 	flex-direction: row;
 	justify-content: flex-end;
 	align-content: center;
-	border: px solid black;
+	border: 0 solid black;
+}
+
+a.couleur-heb {
+	position: absolute;
+	top: 55px;
+	left: 0px;
+	width: 70px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #0065fc;
+	height: 40px;
+	border: 0 solid black;
+}
+
+a.couleur-inscrit {
+	font-size: 20px;
+	width: 70px;
+	display: flex;
+	align-items: center;
+	color: #0065FC;
+	height: 40px;
+	
+}
+
+a.couleur-ac {
+	position: absolute;
+	top: 55px;
+	right: 0;
+	width: 70px;
+	font-size: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	color: black;
+	height: 40px;
+	border: 0 solid black;
 }
 
 a.couleur-ac:hover {
@@ -62,49 +102,11 @@ a.couleur-inscrit:hover {
 	border-bottom: 1px solid blue;
 }
 
-a.couleur-heb {
-	position: absolute;
-	top: 55px;
-	left: 0px;
-	width: 230px;
-	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	color: #0065FC;
-	height: 40px;
-	border: px solid black;
-}
-
-a.couleur-inscrit {
-	font-size: 20px;
-	display: flex;
-	align-items: center;
-	color: #0065FC;
-	height: 40px;
-	
-}
-
-a.couleur-ac {
-	position: absolute;
-	top: 55px;
-	right: 0px;
-	width: 230px;
-	font-size: 20px;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	color: black;
-	height: 40px;
-	border: px solid black;
-}
-
 .recherche {
 	width: 100%;
 	position: relative;
 	flex-direction: column;
-	border: px solid black;
+	border: 0 solid black;
 }
 
 input {
@@ -117,7 +119,7 @@ input {
 }
 
 .fa-map-marker-alt {
-	border: px solid black;
+	border: 0 solid black;
 	text-align: center;
 	position: absolute;
 	left: 3px;
@@ -125,28 +127,31 @@ input {
 	width: 30px;		
 	height: 24px;
 	color: black;
-	background-color: #F2F2F2;
+	background-color: #f2f2f2;
 
 }
 
 button.R {
-	margin-left: -91px;
-	background-color: #0065FC;
+	margin-left: -86px;
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	border-top-left-radius: 0px 0px;
+	border-bottom-left-radius: 0px 0px;
+	background-color: #0065fc;
 	color: white;
 	box-shadow: none;
-	border-radius: 5px;
 	height: 28px;
-
 }
 
 .filtrage {	
+	margin-top: 15px;
+	margin-bottom: 15px;
 	width: 100%;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	align-items :center;
-	border: 0px solid black;
-
+	align-items: center;
+	border: 0 solid black;
 }
 
 button.F {
@@ -161,20 +166,20 @@ button.F {
 }
 
 .F:hover {
-	background-color: #F2F2F2;
+	background-color: #f2f2f2;
 }
 
 .fa-money-bill-wave {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border: px solid black;
+	border: 0 solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
 	height: 20px;
-	color: #0065FC;
-	background-color: #DEEBFF;
+	color: #0065fc;
+	background-color: #deebff;
 
 }
 
@@ -182,39 +187,55 @@ button.F {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border: px solid black;
+	border: 0 solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
 	height: 20px;
-	color: #0065FC;
-	background-color: #DEEBFF;
+	color: #0065fc;
+	background-color: #deebff;
 }
 
 .fa-heart {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border: px solid black;
+	border: 0 solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
 	height: 20px;
-	color: #0065FC;
-	background-color: #DEEBFF;
+	color: #0065fc;
+	background-color: #deebff;
 }
 
 .fa-dog {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border: px solid black;
+	border: 0 solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
 	height: 20px;
-	color: #0065FC;
-	background-color: #DEEBFF;	
+	color: #0065fc;
+	background-color: #deebff;	
+}
+
+.titre {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.titre2 {
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.fa-info-circle {
+	background-color: blue;
+	color: white;
 }
 
 article,
@@ -222,46 +243,45 @@ section {
 	width: auto;
 	height: auto;
 	flex-wrap: wrap;
-	border: px solid black;
+	border: 0 solid black;
 }
 
 main > .Heb {
 	order: 2;
-	width: 473px;
-	border: px solid black;
+	width: 374px;
+	border: 0 solid black;
 	border-radius: 50px;
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;	
 	align-items: flex-start;
 	border-radius: 5px;
-	
 }
 
 main > .pop {
 	position: relative;
 	border-radius: 50px;
 	order: 1;
-	width: 473px;
+	width: 374px;
 	display:flex;
 	flex-direction: row;
 	justify-content: space-around;	
 	align-items: flex-start;	
-	border: px solid black;
+	border: 0 solid black;
 	border-radius: 5px;
-	background-color: #F2F2F2;
+	background-color: #f2f2f2;
 }
 
 main > .activite {
 	border-radius: 10px;
 	position: relative;
-	order:3;
-	width: 473px;
+	order: 3;
+	width: 374px;
 	display: flex;
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	border: px solid black;
+	border: 0 solid black;
 }
 
 .populaire {
@@ -270,22 +290,18 @@ main > .activite {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border: 2px solid white;	
 	border-radius: 10px;
-
 }
 
 .legende-hotelSoleil {
-	width: 170px;
-
+	width: 180px;
 }
 
 .legende-HotelCoeur {
-	width: 170px;
-
+	width: 180px;
 }
 
 .legende-HotelBleuBlanc {
-	width: 170px;
-
+	width: 180px;
 }
 
 figure {
@@ -293,14 +309,14 @@ figure {
 }
 
 .fa-chart-line {
-	border: px solid black;
+	border: 0 solid black;
 	width: 175px;
 	height: 16px;
 	text-align: right;
 }
 
 img.img-pop {
-	width: 230px; 
+	width: 180px; 
 	height: 150px; 
 	border-radius: 10px;
 }
@@ -309,7 +325,7 @@ header {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	border: px solid black;
+	border: 0 solid black;
 }
 
 .hebergements {
@@ -320,7 +336,6 @@ header {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	border: 2px solid white;
 	border-radius: 10px;
-		
 }
 
 .heberg {
@@ -328,29 +343,29 @@ header {
 }
 
 img.img-heb {
-	width: 430px; 
+	width: 350px; 
 	height: 150px; 
 	border-radius: 10px;
 }
 
 .fa-star {
-	color: #0065FC;
+	color: #0065fc;
 }
 
 img.img-ac {
-	width: 430px; 
+	width: 360px; 
 	height: 150px; 
 	border-radius: 10px;
 }
 
 img.img-acL {
-	width: 430px; 
+	width: 360px; 
 	height: 150px; 
 	border-radius: 10px;
 }
 
 img.img-acF {
-	width: 430px; 
+	width: 360px; 
 	height: 150px; 
 	border-radius: 10px;
 }
@@ -365,28 +380,23 @@ img.img-acF {
 
 .photo-A-fixe {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	
 }
 
 
 .photo-A-enLongeur {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	
 }
 
 
 .parc {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .ile {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-	
 }
 
 ul {
-
 	list-style: none; /* enlever les puces */
 	margin: 0; /* enlever les marges automatiques */
 	border: px solid black;
@@ -395,11 +405,16 @@ ul {
 }
 
 li {
-   height: 30px;
+	height: 30px;
 }
 
 .foot {
 	height: 30px;
+}
+
+.bloc {
+	margin-top: 25px;
+	margin-left: 40px;
 }
 
 a {
@@ -407,23 +422,22 @@ a {
 	color: black;
 }
 
-
-@media screen and (min-width: 576px) { 
-	
-
+@media screen and (min-width: 377px) { 
 	main {
-		
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		border: px solid black;
+		border: 0 solid black;
+	}
+
+	body {
+		margin-left: 10px;
 	}
 
 	a.couleur-heb {
 		position: static;
 		font-size: 15px;
-		border: px solid black;
-		
+		border: 0 solid black;
 	}
 
 	a.couleur-inscrit {
@@ -433,7 +447,6 @@ a {
 	a.couleur-ac {
 		position: static;
 		font-size: 15px;
-		
 	}
 
 	header.navigation {
@@ -443,7 +456,7 @@ a {
 		display:flex;
 		flex-direction: row;
 		align-items :flex-start;
-		border: px solid black;
+		border: 0 solid black;
 	}
 
 	.fa-map-marker-alt {
@@ -455,44 +468,41 @@ a {
 		width: 30px;
 		height: 24px;
 		color: black;
-		background-color: #F2F2F2;
-		
+		background-color: #f2f2f2;
 	}
 
 	.filtrage {	
-		width: 100%;
+		width: 1000px;
 		display: flex;
 		flex-wrap: wrap;
-		justify-content: flex-start;
+		justify-content: space-between;
 		align-items :center;
-		border: px solid black;
-
+		border: 0 solid black;
 	}
 
 	main > .Heb {
 		order: initial;
 		width: 900px;
-		border: px solid black;
+		border: 0 solid black;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;	
 		align-content: flex-start;
 		border-radius: 5px;
-		background-color: #F2F2F2;
-	
+		background-color: #f2f2f2;
 	}
 
 	main > .pop {
 		order: initial;
 		position: relative;
-		width: 400px;
+		width: 390px;
 		display:flex;
 		flex-direction: row;
 		justify-content: space-around;	
 		align-items: flex-start;	
-		border: px solid black;
+		border: 0 solid black;
 		border-radius: 5px;
-		background-color: #F2F2F2;
+		background-color: #f2f2f2;
 	}
 
 	main > .activite {
@@ -501,7 +511,7 @@ a {
 		width: 1340px;
 		flex-direction: row;
 		justify-content: flex-start;
-		border: px solid black;
+		border: 0 solid black;
 	}
 
 	img.img-heb {
@@ -521,8 +531,7 @@ a {
 		flex-direction: row;
 		justify-content: flex-start;
 		align-content: space-around;
-		background-color: #F2F2F2;
-
+		background-color: #f2f2f2;
 	}
 
 	.bloc {
@@ -531,26 +540,22 @@ a {
 		display: flex;
 		flex-direction: column;
 		justify-content: flex-start;
-		padding-left: 0px;
-
+		padding-left: 0;
 	}
 
 	.photo-A-fixe {
 		border-radius: 10px;
-		border: px solid black;
-		
-		
+		border: 0 solid black;
 	}
 
 
 	.parc {
 		border-radius: 10px;
-		border: px solid black;
+		border: 0 solid black;
 		position: absolute;	 	
 		top: 335px;
 		right: 15px;
 	}
-
 
 	.ile {
 		border-radius: 10px;
@@ -560,11 +565,10 @@ a {
 		right: 680px;
 	}
 
-
 	.photo-A-enLongeur {
 		border: thin #c0c0c0 solid;
 		border-radius: 10px;
-		border: px solid black;
+		border: 0 solid black;
 	}
 
 	img.img-acL {
@@ -587,22 +591,126 @@ a {
 
 	.legende-hotelSoleil {
 		width: 190px;
-
 	}
 
 	.legende-HotelCoeur {
 		width: 190px;
-
 	}
 
 	.legende-HotelBleuBlanc {
 		width: 190px;
-
 	}
 
 	figure {
 		margin-left: 1px;
-		border: px solid black;
+		border: 0 solid black;
+	}
+}
+
+@media screen and (min-width: 1400px) { 
+	main > .Heb {
+		order: initial;
+		width: 1300px;
+		border: 0 solid black;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;	
+		align-content: flex-start;
+		border-radius: 5px;
+		background-color: #f2f2f2;
 	}
 
+	main > .pop {
+		order: initial;
+		position: relative;
+		width: 550px;
+		display:flex;
+		flex-direction: row;
+		justify-content: space-around;	
+		align-items: flex-start;	
+		border: 0 solid black;
+		border-radius: 5px;
+		background-color: #f2f2f2;
+	}
+
+	main > .activite {
+		order: initial;
+		position: relative;
+		width: 1900px;
+		flex-direction: row;
+		justify-content: flex-start;
+		border: 0 solid black;
+	}
+
+	img.img-heb {
+		width: 350px; 
+		height: 135px; 
+		border-radius: 10px;
+	}
+
+	img.img-pop {
+		width: 250px; 
+		height: 135px; 
+		border-radius: 10px;
+	}
+
+	.legende-hotelSoleil {
+		width: 210px;
+	}
+
+	.legende-HotelCoeur {
+		width: 210px;
+	}
+
+	.legende-HotelBleuBlanc {
+		width: 210px;
+	}
+
+	img.img-acL {
+		width: 400px; 
+		height: 420px; 
+		border-radius: 10px;
+	}
+
+	img.img-acF {
+		width: 450px; 
+		height: 150px; 
+		border-radius: 10px;
+	}
+
+	img.img-ac {
+		width: 450px; 
+		height: 150px; 
+		border-radius: 10px;
+	}		
+
+	.parc {
+		border-radius: 10px;
+		border: 0 solid black;
+		position: absolute;	 	
+		top: 335px;
+		right: 35px;
+	}
+
+	.ile {
+		border-radius: 10px;
+		border: px solid black;
+		position: absolute;
+		top: 335px;
+		right: 970px;
+	}
+
+	.bloc {
+		margin-top: 25px;
+		margin-left: 40px;
+		border: 0 solid black;
+		width: 570px;
+	}
+
+	.fa-chart-line {
+	border: 0 solid black;
+	width: 270px;
+	height: 20px;
+	text-align: right;
+	}
 }
