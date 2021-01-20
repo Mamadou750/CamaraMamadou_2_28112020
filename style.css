@@ -608,9 +608,13 @@ a {
 }
 
 @media screen and (min-width: 1400px) { 
+	body {
+		margin-left: 35px;
+	}
+
 	main > .Heb {
 		order: initial;
-		width: 1300px;
+		width: 1250px;
 		border: 0 solid black;
 		display: flex;
 		flex-wrap: wrap;
@@ -621,9 +625,10 @@ a {
 	}
 
 	main > .pop {
+		margin-right: 50px;
 		order: initial;
 		position: relative;
-		width: 550px;
+		width: 520px;
 		display:flex;
 		flex-direction: row;
 		justify-content: space-around;	
@@ -704,7 +709,7 @@ a {
 		margin-top: 25px;
 		margin-left: 40px;
 		border: 0 solid black;
-		width: 570px;
+		width: 550px;
 	}
 
 	.fa-chart-line {
@@ -712,5 +717,16 @@ a {
 	width: 270px;
 	height: 20px;
 	text-align: right;
+	}
+
+	.logo {
+		width: 100px;
+		height: 60px;
+		border: 0 solid black;
+	}
+
+	footer {
+		width: 1900px;
+		margin-left: -35px;
 	}
 }
