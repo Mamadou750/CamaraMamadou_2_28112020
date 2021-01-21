@@ -6,7 +6,6 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	border: 0 solid black;
 }
 
 footer {
@@ -19,7 +18,6 @@ footer {
 h3 {
 	margin: 0;
 	font-weight: bold;
-	border: 0 solid black;
 }
 
 
@@ -30,13 +28,11 @@ header.navigation {
 	display: flex;
 	flex-direction: row;
 	align-items: flex-start;
-	border: 0 solid black;
 }
 
 .logo {
 	width: 80px;
 	height: 50px;
-	border: 0 solid black;
 }
 
 nav {
@@ -45,7 +41,6 @@ nav {
 	flex-direction: row;
 	justify-content: flex-end;
 	align-content: center;
-	border: 0 solid black;
 }
 
 a.couleur-heb {
@@ -59,7 +54,6 @@ a.couleur-heb {
 	align-items: center;
 	color: #0065fc;
 	height: 40px;
-	border: 0 solid black;
 }
 
 a.couleur-inscrit {
@@ -84,21 +78,17 @@ a.couleur-ac {
 	text-align: center;
 	color: black;
 	height: 40px;
-	border: 0 solid black;
 }
 
 a.couleur-ac:hover {
-
 	border-bottom: 1px solid blue;
 }
 
 a.couleur-heb:hover {
-
 	border-bottom: 1px solid blue;
 }
 
 a.couleur-inscrit:hover {
-
 	border-bottom: 1px solid blue;
 }
 
@@ -106,7 +96,6 @@ a.couleur-inscrit:hover {
 	width: 100%;
 	position: relative;
 	flex-direction: column;
-	border: 0 solid black;
 }
 
 input {
@@ -119,7 +108,6 @@ input {
 }
 
 .fa-map-marker-alt {
-	border: 0 solid black;
 	text-align: center;
 	position: absolute;
 	left: 3px;
@@ -135,7 +123,7 @@ button.R {
 	margin-left: -86px;
 	border-top-right-radius: 5px 5px;
 	border-bottom-right-radius: 5px 5px;
-	border-top-left-radius: 0px 0px;
+	border-top-left-radius: 0;
 	border-bottom-left-radius: 0px 0px;
 	background-color: #0065fc;
 	color: white;
@@ -151,7 +139,7 @@ button.R {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
-	border: 0 solid black;
+	border: 0 ;
 }
 
 button.F {
@@ -173,7 +161,6 @@ button.F {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border: 0 solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
@@ -187,7 +174,6 @@ button.F {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border: 0 solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
@@ -200,7 +186,6 @@ button.F {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border: 0 solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
@@ -213,7 +198,6 @@ button.F {
 	margin-left: -5px;
 	padding-top: 7px;
 	border-radius: 50%;
-	border: 0 solid black;
 	text-align: center;
 	align-content: center;
 	width: 40px;
@@ -243,13 +227,11 @@ section {
 	width: auto;
 	height: auto;
 	flex-wrap: wrap;
-	border: 0 solid black;
 }
 
 main > .Heb {
 	order: 2;
 	width: 374px;
-	border: 0 solid black;
 	border-radius: 50px;
 	display: flex;
 	flex-wrap: wrap;
@@ -267,7 +249,6 @@ main > .pop {
 	flex-direction: row;
 	justify-content: space-around;	
 	align-items: flex-start;	
-	border: 0 solid black;
 	border-radius: 5px;
 	background-color: #f2f2f2;
 }
@@ -281,7 +262,6 @@ main > .activite {
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: flex-start;
-	border: 0 solid black;
 }
 
 .populaire {
@@ -309,7 +289,6 @@ figure {
 }
 
 .fa-chart-line {
-	border: 0 solid black;
 	width: 175px;
 	height: 16px;
 	text-align: right;
@@ -325,7 +304,6 @@ header {
 	width: 100%;
 	display: flex;
 	align-items: center;
-	border: 0 solid black;
 }
 
 .hebergements {
@@ -399,7 +377,6 @@ img.img-acF {
 ul {
 	list-style: none; /* enlever les puces */
 	margin: 0; /* enlever les marges automatiques */
-	border: px solid black;
 	color: black;
 	padding-left: 0px;
 }
@@ -427,7 +404,6 @@ a {
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-between;
-		border: 0 solid black;
 	}
 
 	body {
@@ -437,7 +413,6 @@ a {
 	a.couleur-heb {
 		position: static;
 		font-size: 15px;
-		border: 0 solid black;
 	}
 
 	a.couleur-inscrit {
@@ -456,11 +431,9 @@ a {
 		display:flex;
 		flex-direction: row;
 		align-items :flex-start;
-		border: 0 solid black;
 	}
 
 	.fa-map-marker-alt {
-		border: px solid black;
 		text-align: center;
 		position: absolute;
 		left: 3px;
@@ -477,13 +450,11 @@ a {
 		flex-wrap: wrap;
 		justify-content: space-between;
 		align-items :center;
-		border: 0 solid black;
 	}
 
 	main > .Heb {
 		order: initial;
 		width: 900px;
-		border: 0 solid black;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;	
@@ -500,7 +471,6 @@ a {
 		flex-direction: row;
 		justify-content: space-around;	
 		align-items: flex-start;	
-		border: 0 solid black;
 		border-radius: 5px;
 		background-color: #f2f2f2;
 	}
@@ -511,7 +481,6 @@ a {
 		width: 1340px;
 		flex-direction: row;
 		justify-content: flex-start;
-		border: 0 solid black;
 	}
 
 	img.img-heb {
@@ -535,7 +504,6 @@ a {
 	}
 
 	.bloc {
-		border: px solid black;
 		width: 400px;
 		display: flex;
 		flex-direction: column;
@@ -545,13 +513,11 @@ a {
 
 	.photo-A-fixe {
 		border-radius: 10px;
-		border: 0 solid black;
 	}
 
 
 	.parc {
 		border-radius: 10px;
-		border: 0 solid black;
 		position: absolute;	 	
 		top: 335px;
 		right: 15px;
@@ -559,7 +525,6 @@ a {
 
 	.ile {
 		border-radius: 10px;
-		border: px solid black;
 		position: absolute;
 		top: 335px;
 		right: 680px;
@@ -568,7 +533,6 @@ a {
 	.photo-A-enLongeur {
 		border: thin #c0c0c0 solid;
 		border-radius: 10px;
-		border: 0 solid black;
 	}
 
 	img.img-acL {
@@ -603,7 +567,6 @@ a {
 
 	figure {
 		margin-left: 1px;
-		border: 0 solid black;
 	}
 }
 
@@ -615,7 +578,6 @@ a {
 	main > .Heb {
 		order: initial;
 		width: 1250px;
-		border: 0 solid black;
 		display: flex;
 		flex-wrap: wrap;
 		justify-content: space-around;	
@@ -633,7 +595,6 @@ a {
 		flex-direction: row;
 		justify-content: space-around;	
 		align-items: flex-start;	
-		border: 0 solid black;
 		border-radius: 5px;
 		background-color: #f2f2f2;
 	}
@@ -644,7 +605,6 @@ a {
 		width: 1900px;
 		flex-direction: row;
 		justify-content: flex-start;
-		border: 0 solid black;
 	}
 
 	img.img-heb {
@@ -691,7 +651,6 @@ a {
 
 	.parc {
 		border-radius: 10px;
-		border: 0 solid black;
 		position: absolute;	 	
 		top: 335px;
 		right: 35px;
@@ -699,7 +658,6 @@ a {
 
 	.ile {
 		border-radius: 10px;
-		border: px solid black;
 		position: absolute;
 		top: 335px;
 		right: 970px;
@@ -713,16 +671,14 @@ a {
 	}
 
 	.fa-chart-line {
-	border: 0 solid black;
-	width: 270px;
-	height: 20px;
-	text-align: right;
+		width: 270px;
+		height: 20px;
+		text-align: right;
 	}
 
 	.logo {
 		width: 100px;
 		height: 60px;
-		border: 0 solid black;
 	}
 
 	footer {
