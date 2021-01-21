@@ -20,7 +20,6 @@ h3 {
   font-weight: bold;
 }
 
-
 header.navigation {
   position: relative;
   width: 100%;
@@ -46,7 +45,7 @@ nav {
 a.couleur-heb {
   position: absolute;
   top: 55px;
-  left: 0px;
+  left: 0;
   width: 70px;
   font-size: 20px;
   display: flex;
@@ -61,9 +60,8 @@ a.couleur-inscrit {
   width: 70px;
   display: flex;
   align-items: center;
-  color: #0065FC;
+  color: #0065fc;
   height: 40px;
-  
 }
 
 a.couleur-ac {
@@ -116,7 +114,6 @@ input {
   height: 24px;
   color: black;
   background-color: #f2f2f2;
-
 }
 
 button.R {
@@ -150,7 +147,7 @@ button.F {
   font-weight: bold;
   border-radius: 50px;
   height: 33px;
-  width: 200px;		
+  width: 200px;
 }
 
 .F:hover {
@@ -203,7 +200,7 @@ button.F {
   width: 40px;
   height: 20px;
   color: #0065fc;
-  background-color: #deebff;	
+  background-color: #deebff;
 }
 
 .titre {
@@ -235,7 +232,7 @@ main > .Heb {
   border-radius: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;	
+  justify-content: space-around;
   align-items: flex-start;
   border-radius: 5px;
 }
@@ -245,10 +242,10 @@ main > .pop {
   border-radius: 50px;
   order: 1;
   width: 374px;
-  display:flex;
+  display: flex;
   flex-direction: row;
   justify-content: space-around;	
-  align-items: flex-start;	
+  align-items: flex-start;
   border-radius: 5px;
   background-color: #f2f2f2;
 }
@@ -268,7 +265,7 @@ main > .activite {
   display: flex;
   align-items: flex-start;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  border: 2px solid white;	
+  border: 2px solid white;
   border-radius: 10px;
 }
 
@@ -321,7 +318,7 @@ header {
 }
 
 img.img-heb {
-  width: 350px; 
+  width: 350px;
   height: 150px; 
   border-radius: 10px;
 }
@@ -331,7 +328,7 @@ img.img-heb {
 }
 
 img.img-ac {
-  width: 360px; 
+  width: 360px;
   height: 150px; 
   border-radius: 10px;
 }
@@ -399,7 +396,7 @@ a {
   color: black;
 }
 
-@media screen and (min-width: 377px) { 
+@media screen and (min-width: 377px) {
   main {
     display: flex;
     flex-wrap: wrap;
@@ -430,7 +427,7 @@ a {
     height: 43px;
     display:flex;
     flex-direction: row;
-    align-items :flex-start;
+    align-items: flex-start;
   }
 
   .fa-map-marker-alt {
@@ -449,7 +446,7 @@ a {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items :center;
+    align-items: center;
   }
 
   main > .Heb {
@@ -484,14 +481,14 @@ a {
   }
 
   img.img-heb {
-    width: 210px; 
-    height: 95px; 
+    width: 210px;
+    height: 95px;
     border-radius: 10px;
   }
 
   img.img-pop {
     width: 150px; 
-    height: 125px; 
+    height: 125px;
     border-radius: 10px;
   }
 
@@ -536,7 +533,7 @@ a {
   }
 
   img.img-acL {
-    width: 270px; 
+    width: 270px;
     height: 420px; 
     border-radius: 10px;
   }
