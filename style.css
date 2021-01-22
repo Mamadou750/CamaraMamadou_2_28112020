@@ -1,4 +1,4 @@
-@media screen and (min-width: 0px) {
+@media screen and (min-width: 1px) {
   body,
   main,
   footer {
@@ -103,7 +103,6 @@
     border-radius: 8px;
     height: 25px;
     width: 250px;
-
   }
 
   .fa-map-marker-alt {
@@ -234,7 +233,6 @@
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    border-radius: 5px;
   }
 
   main > .pop {
@@ -246,7 +244,6 @@
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
-    border-radius: 5px;
     background-color: #f2f2f2;
   }
 
@@ -362,7 +359,6 @@
     border-radius: 10px;
   }
 
-
   .photo-A-enLongeur {
     display: flex;
     flex-direction: column;
@@ -394,7 +390,7 @@
     list-style: none; /* enlever les puces */
     margin: 0; /* enlever les marges automatiques */
     color: black;
-    padding-left: 0px;
+    padding-left: 1px;
   }
 
   li {
@@ -422,6 +418,7 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+
   .legende-A {
     background-color: white;
     color: black;
@@ -452,7 +449,7 @@
     position: relative;
     width: 100%;
     height: 43px;
-    display:flex;
+    display: flex;
     flex-direction: row;
     align-items: flex-start;
   }
@@ -582,7 +579,6 @@
     align-content: flex-start;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     border-radius: 10px;
-    border-radius: 10px;
   }
 
   img.img-acL {
@@ -620,7 +616,7 @@
   }
 }
 
-@media screen and (min-width: 800px) { 
+@media screen and (min-width: 800px) {
   body {
     margin-left: 35px;
   }
