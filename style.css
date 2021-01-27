@@ -611,14 +611,43 @@
 }
 
 @media screen and (min-width: 800px) {
-  body {
+  header.navigation {
+    margin-left: 40px;
+    position: relative;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .titre-secondaire {
+    margin-left: 40px;
+  }
+
+  .recherche {
+    margin-left: 40px;
+    width: 100%;
+    position: relative;
+    flex-direction: column;
+  }
+
+  nav {
+    margin-right: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-content: center;
   }
 
   .filtrage {
+    margin-left: 40px;
     width: 1300px;
   }
 
   main > .Heb {
+    margin-left: 40px;
     order: initial;
     width: 1250px;
     display: flex;
@@ -633,7 +662,7 @@
     margin-right: 40px;
     order: initial;
     position: relative;
-    width: 580px;
+    width: 550px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -643,9 +672,11 @@
   }
 
   main > .activite {
+    margin-left: 40px;
+    margin-right: 40px;
     order: initial;
     position: relative;
-    width: 1900px;
+    width: 1820px;
     flex-direction: row;
     justify-content: flex-start;
   }
@@ -675,19 +706,19 @@
   }
 
   img.img-acL {
-    width: 411px;
+    width: 400px;
     height: 420px;
     border-radius: 10px;
   }
 
   img.img-acF {
-    width: 453px;
+    width: 420px;
     height: 150px;
     border-radius: 10px;
   }
 
   img.img-ac {
-    width: 453px;
+    width: 420px;
     height: 150px;
     border-radius: 10px;
   }
@@ -703,7 +734,7 @@
     border-radius: 10px;
     position: absolute;
     top: 335px;
-    right: 950px;
+    right: 910px;
   }
 
   .bloc {
@@ -725,6 +756,6 @@
   }
 
   footer {
-    width: 100%;
+    width: 1900px;
   }
 }
