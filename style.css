@@ -236,9 +236,7 @@ main > .activite {
   border-radius: 10px;
 }
 
-.legende-hotelSoleil,
-.legende-HotelBleuBlanc,
-.legende-HotelCoeur {
+.legende-hotel {
   padding: 10px;
   width: 160px;
 }
@@ -369,10 +367,6 @@ a {
     height: 24px;
   }
 
-  .filtrage {
-    width: 100%;
-  }
-
   main > .Heb {
     order: initial;
     width: 760px;
@@ -456,9 +450,7 @@ a {
     height: 150px;
   }
 
-  .legende-hotelSoleil,
-  .legende-HotelCoeur,
-  .legende-HotelBleuBlanc {
+  .legende-hotel {
     width: 230px;
   }
 
@@ -526,21 +518,19 @@ a {
     width: 1820px;
   }
 
-  img.img-heb {
+  .img-heb {
     width: 350px;
     height: 120px;
     border-radius: 10px;
   }
 
-  img.img-pop {
+  .img-pop {
     width: 250px;
     height: 135px;
     border-radius: 10px;
   }
 
-  .legende-hotelSoleil,
-  .legende-HotelCoeur,
-  .legende-HotelBleuBlanc {
+  .legende-hotel {
     width: 210px;
   }
 
@@ -556,14 +546,12 @@ a {
   }
 
   .parc {
-    position: absolute;
-    top: 335px;
+    top: 355px;
     right: 40px;
   }
 
   .ile {
-    position: absolute;
-    top: 335px;
+    top: 355px;
     right: 930px;
   }
 
