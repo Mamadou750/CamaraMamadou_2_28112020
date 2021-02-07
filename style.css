@@ -62,7 +62,7 @@ a.couleur-heb {
   align-items: center;
   color: #0065fc;
   height: 50px;
-  border-bottom: 2px solid #F2F2F2;
+  border-bottom: 2px solid #f2f2f2;
 }
 
 a.couleur-inscrit {
@@ -157,7 +157,7 @@ button.F {
 }
 
 .F:hover {
-  background-color:blue;
+  background-color: blue;
   color: white;
 }
 
@@ -177,7 +177,8 @@ button.F {
 }
 
 .titre {
-  font-size: 1.2em;
+  font-size: 16px;
+  height: 80px;
   margin: 0 20px 20px 20px;
 }
 
@@ -201,14 +202,12 @@ section {
 .contenu-heb {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: flex-start;
 }
 
 .contenu-pop {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
   align-items: flex-start;
 }
 
@@ -226,7 +225,12 @@ section {
   display: flex;
 }
 
+.Heb {
+  border-radius: 25px;
+}
+
 .pop {
+  border-radius: 25px;
   background-color: #f2f2f2;
   display: flex;
   width: 100%;
@@ -253,7 +257,7 @@ figure {
 }
 
 .fa-chart-line {
-  width: 95px;
+  width: 85px;
   height: 16px;
   text-align: right;
 }
@@ -362,7 +366,7 @@ a {
   color: black;
 }
 
-@media screen and (min-width: 576px) {
+@media screen and (min-width: 377px) {
   main {
     flex-wrap: wrap;
   }
@@ -442,7 +446,7 @@ a {
 
   .legende-hotel {
     width: 250px;
-    height: 220px
+    height: 220px;
   }
 
   figure {
@@ -493,7 +497,6 @@ a {
   .pop {
     flex: 0.2;
     margin: 0 25px 0 0;
-    justify-content: space-between;
   }
 
   .contenu-ac {
